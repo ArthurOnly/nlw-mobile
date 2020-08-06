@@ -1,7 +1,10 @@
 import React from "react"
 
+import styles from "./styles"
+import { View } from "react-native"
+
 function Favorites() {
-  return <></>
+  return <View style={styles.container}></View>
 }
 
 export default Favorites
